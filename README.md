@@ -19,7 +19,7 @@ brew install gmp
 
 ## Performance
 
-Approx 400 steps per second on a Macbook Pro Intel.
+Approx 400 steps per second on a Macbook Pro Intel for the 1024 bits version.
 
 ```bash
 $ time ./main
