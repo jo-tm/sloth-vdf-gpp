@@ -18,7 +18,7 @@ int main() {
 
     // Generate buffer proof
     std::vector<uint8_t> x_buffer(16, 0);
-    SlothPermutation::writeBigUIntLE(x, x_buffer, 16);
+    sloth.writeBigUIntLE(x, x_buffer, 16);
     std::vector<uint8_t> y_buffer = sloth.generateBufferProofVDF(t, x_buffer, 16);
 
     // Verify buffer proof
