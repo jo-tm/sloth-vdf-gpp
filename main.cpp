@@ -5,7 +5,7 @@
 int main() {
     SlothPermutation sloth;
     mpz_class t = 1000;
-    mpz_class x = 12345678901234567890;
+    mpz_class x("12345678901234567890");
     mpz_class y;
 
     // Generate proof
