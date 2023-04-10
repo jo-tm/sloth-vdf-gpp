@@ -1,5 +1,5 @@
 # sloth-vdf-gpp
-C++ implementation of Sloth
+C++ implementation of Sloth VDF.
 
 ## Building
 
