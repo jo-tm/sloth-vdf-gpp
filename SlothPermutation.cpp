@@ -105,7 +105,7 @@ mpz_class SlothPermutation::readBigUIntLE(const std::vector < uint8_t > & buffer
 
   for (size_t i = 0; i < byteLen; i++) {
     mpz_class tmp = mpz_class(buffer[offset + i]);
-    tmp *= (mpz_class(1) << mpz_class(i * 8));
+    tmp *= (mpz_class(1) << static_cast<unsigned long>(i * 8));
     result += tmp;
   }
 
